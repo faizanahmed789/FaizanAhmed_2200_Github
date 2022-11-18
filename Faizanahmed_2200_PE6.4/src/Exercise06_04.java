@@ -1,6 +1,8 @@
 /************************
  * 
- * @author Faizan Ahmed
+ * @author Faizan Ahmed 
+ * @date 11/14/2022
+ * 		 11/18/2022 [F] Modify solution from last Monday
  *
  */
 import java.util.Scanner;
@@ -21,6 +23,7 @@ public class Exercise06_04 {
 		if(n == 0) {
 			System.out.print(n);
 		}
+		
 		while( n!= 0) {
 			System.out.print(n % 10);
 			n = n / 10;
